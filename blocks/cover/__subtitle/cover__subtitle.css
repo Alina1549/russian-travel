@@ -1,0 +1,27 @@
+.cover__subtitle {
+  margin: 32px 0 0 0;
+  max-width: 360px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #FFFFFF;
+  z-index: 1;
+}
+
+@media screen and (max-width: 767px) {
+  .cover__subtitle {
+    margin: 22px 0 0 0;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .cover__subtitle {
+    max-width: 273px;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 16px 0 0 0;
+  }
+}
+/* я поменяла с 288 на 273, есть изменения, но не так как на макете, буква " о " не переносится */
